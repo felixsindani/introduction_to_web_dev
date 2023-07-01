@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>
+		Survey on preffered Agribusiness venture
+	</title>
+
+	
+</head> <link rel="stylesheet" href="style.css">
+
+<body>
+	<h1>Welcome to Fari Farm</h1>
+	<h2>Survey on preffered Agribusiness venture</h2>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter your full name" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Age
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="age"
+				placeholder="Enter your age" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				What is your proffession?
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+				<option value="student">Student</option>
+				<option value="Free-lancer">Free-lancer</option>
+				<option value="Farmer">Farmer</option>
+				<option value="Engineer">Engineer</option>
+				<option value="Military officer">Military officer</option>
+				<option value="Medical practitioner">Medical practitioner</option>
+				<option value="Government officer">Government officer</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label>
+				Would you recommend Fari Farm
+				to a friend?
+			</label>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Yes</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">No</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Maybe</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label>Preffered Agribusiness venture
+				<small>(Check all that apply)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">Dairy keeping</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">Poulty Farming</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">Vegetable Farming</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Bee Keeping</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Pig farming</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">Fish farming</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Agricultural consultancy services</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Rabbit keeping</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Hass Avocado farming</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Livestock house construction</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Animal feed production</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Sheep and goat farming</input></label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				Any comments or suggestions
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+</body>
+</html>
