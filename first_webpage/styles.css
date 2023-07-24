@@ -1,0 +1,209 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+body{
+  
+  width: 100%;
+  height: 100px;
+
+}
+/* inserting background image and editing attributes */
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Bee-Wallpaper-Full-HD.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+.banner_about{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(aboutus.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.banner_products{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(savebees.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner_resources{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(WIP-World-Bee-Day_Kids-Infographic4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  
+  text-align: start;
+  display: block;
+  float: left;
+  padding: 0 20px;
+  font-size: 3em;
+  cursor: pointer;
+  }
+h4{
+    text-align: center;
+    color: #000;    
+  }
+
+p{
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 14x;
+  font-weight: 600;
+}
+
+h1:hover{
+  color: green;
+}
+
+nav{
+  
+  margin: 0 auto;
+  height: 100px;
+  width: 100%;
+  }
+
+ul{
+text-align: right;
+
+}
+li{
+  display: inline-block;
+  list-style: none;
+  line-height: 100px;  
+}
+a{
+  display: inline-block;
+  color: white;
+  padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  font-size: 0.8em;
+  transition: 0.5s;
+ 
+}
+/* hovering to change color on nav list */
+a:hover{
+  color: green;
+  
+}
+h1{
+  color: brown;
+  font-weight:bold;
+  font-size: 3.3em;
+  transition: 0.5s;
+}
+p{
+  color: green;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+  background-color:black;
+}
+.footerContainer{
+  width: 100%;
+  padding: 7px 30px 7px;
+}
+.socialicons{
+  display: flex;
+  justify-content: center;
+
+}
+
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color:lightblue;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialicons a i{
+  font-size: 1em;
+  color: black;
+  opacity: 0.9;
+
+}
+
+/* Hover effect on social media icons */
+.socialicons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+
+}
+
+.socialicons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+.footernav{
+  margin: 20px 0;
+
+}
+
+.footernav ul{
+  display: flex;
+  justify-content: center;
+}
+
+.footernav ul li a{
+  color: white;
+  margin: 2px;
+  text-decoration: none;
+  font-size: 0.7em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+  color: green;
+  transition: 0.5s;
+}
+
+.footerbottom{
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footerbottom p{
+  color: green;
+  font-size: 0.3em;
+}
+.Designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+  font-size: 0.5em;
+}
+
+/* setting navbar, body and footer to be interactive */
+
+@media (max-width: 700px){
+  .footernav ul, .nav, .body{
+    flex-direction: column;
+  }
+  .footernav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
